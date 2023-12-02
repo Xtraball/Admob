@@ -1,0 +1,24 @@
+{
+  "extends": "@admob-plus-internal/tsconfig",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "module": "Node16"
+  },
+  "references": [
+    { "path": "packages/pkg-proxy" },
+    { "path": "internal/cli" },
+    { "path": "internal/npm-bin" },
+    { "path": "packages/capacitor" },
+    { "path": "packages/cordova-consent" },
+    { "path": "packages/cordova-native" },
+    { "path": "packages/cordova" },
+    { "path": "packages/ionic" },
+    { "path": "packages/react-native" }
+  ],
+  "files": [],
+  "ts-node": {
+    "esm": true,
+    "transpileOnly": true
+  }
+}

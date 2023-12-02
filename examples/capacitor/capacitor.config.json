@@ -1,0 +1,10 @@
+{
+  "appId": "example.capacitor",
+  "appName": "AdMobPlusCapacitorExample",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

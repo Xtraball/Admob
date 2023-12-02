@@ -1,12 +1,13 @@
-# ignore following files
 .DS_Store
-.settings
-.idea
-*.iml
+package-lock.json
 *.log
 *.lock
 node_modules/
-coverage/
-www/
-gh-pages/
-package-lock.json
+
+examples/*/platforms
+examples/*/plugins
+
+website/translated_docs
+website/build/
+website/i18n/*
+/.idea/

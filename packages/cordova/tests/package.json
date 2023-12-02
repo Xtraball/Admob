@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "admob-plus-cordova-tests",
+  "version": "0.0.0",
+  "cordova": {
+    "id": "admob-plus-cordova-tests",
+    "platforms": [
+      "android"
+    ]
+  }
+}

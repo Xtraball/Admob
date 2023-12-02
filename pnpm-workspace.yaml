@@ -1,0 +1,6 @@
+packages:
+  - examples/*
+  - internal/*
+  - packages/*
+  - scripts
+  - website
