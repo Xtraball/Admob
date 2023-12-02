@@ -47,7 +47,7 @@ public class AdMobPlusRNModule extends ReactContextBaseJavaModule implements Hel
         MobileAds.initialize(reactContext, status -> {
             helper.configForTestLab();
             WritableMap result = Arguments.createMap();
-            result.putString("version", MobileAds.getVersionString());
+            result.putString("version", MobileAds.getVersion());
             promise.resolve(result);
         });
     }
