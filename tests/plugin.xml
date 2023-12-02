@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="cordova-plugin-admob-free-tests"
-    version="1.0.0-dev">
-    <name>Cordova AdMob Tests</name>
-    <license>MIT</license>
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="admob-plus-cordova-tests"
+    version="0.0.0">
+    <name>admob-plus-cordova-tests</name>
+
+    <js-module src="tests.js" name="tests">
+    </js-module>
 
     <platform name="android">
-        <source-file src="android/AdMobConfigTest.java" target-dir="test/java/name/ratson/cordova/admob" />
-        <source-file src="android/CordovaEventBuilderTest.java" target-dir="test/java/name/ratson/cordova/admob" />
+        <source-file src="android/util_test.kt" target-dir="app/src/test/kotlin/admob/plus/core" />
+        <framework src="android/build.gradle" custom="true" type="gradleReference" />
     </platform>
+
 </plugin>
